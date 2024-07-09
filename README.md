@@ -3,3 +3,7 @@ Project for AI4Good Lab: An app that assists the visually impaired with crossing
 
 ContentView.swift uses Google Gemini for all functions. You must change "YOUR_API_KEY" to your google gemini api key after downloading respective package dependencies.
 ContentView_ResNET.swift uses resNet model for intersection type identification and Google Gemini for all other functions. You must change "YOUR_API_KEY" to your google gemini api key after downloading respective package dependencies. You must also change "ResNET_API_URL" in APIManager.swift to your generated public server URL from ngrok for the resNet model.
+
+App Demo:
+https://github.com/a-beaudin/GuidO/assets/117298830/18cbb856-a87d-4132-abc2-688ff562f41e
+
