@@ -15,7 +15,8 @@ class APIManager {
     private init() {}
     
     func predictImage(image: UIImage, completion: @escaping (String?, Error?) -> Void) {
-        let url = URL(string: "http://127.0.0.1:5000/predict")!
+        // Replace "ResNET_API_URL" with public server URL from ngrok
+        let url = URL(string: "ResNET_API_URL")!
         
         // Convert UIImage to Data
         guard let imageData = image.jpegData(compressionQuality: 1.0) else {
